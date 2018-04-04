@@ -65,11 +65,19 @@ body {
     line-height: 40px;
   }
   
+  .current{
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
   .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: #999999;
+    background: none;
   }
+  
   
   .sidebar-nav li a:hover {
     text-decoration: none;
@@ -77,9 +85,12 @@ body {
     background: rgba(255, 255, 255, 0.2);
   }
   
-  .sidebar-nav li a:active, .sidebar-nav li a:focus {
-    text-decoration: none;
-  }
+  // .sidebar-nav li a:active, .sidebar-nav li a:focus {
+  //   text-decoration: none;
+  //   color: #fff;
+  //   background: rgba(255, 255, 255, 0.2);
+  // }
+
   
   .sidebar-nav>.sidebar-brand {
     height: 65px;
@@ -117,4 +128,15 @@ body {
       position: relative;
       margin-right: 0;
     }
+  }
+
+
+  .page-footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
   }
